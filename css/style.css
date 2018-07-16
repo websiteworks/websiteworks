@@ -54,7 +54,7 @@ strong {
 #about,
 #feature,
 #contact,
-#portfolio {
+#portfolio, {
   background: #ffffff;
 }
 
@@ -347,6 +347,9 @@ footer {
 
 
 /*Portfolio Section*/
+#portfolio section {
+	background-color: white;
+}
 #portfolio * {
     box-sizing: border-box;
 		background-color: white;
@@ -355,12 +358,14 @@ footer {
 #portfolio body {
     padding: 20px;
     font-family: Arial;
+		background-color: white;
 }
 
 /* Center website */
 #portfolio .main {
     max-width: 1000px;
     margin: auto;
+		background-color: white;
 }
 
 #portfolio h1 {
@@ -376,12 +381,14 @@ footer {
 #portfolio .row,
 #portfolio .row > #portfolio .column {
     padding: 8px;
+		background-color: white;
 }
 
 /* Create four equal columns that floats next to each other */
 #portfolio .column {
     float: left;
     width: 25%;
+		background-color: white;
 }
 
 /* Clear floats after rows */
@@ -389,11 +396,13 @@ footer {
     content: "";
     display: table;
     clear: both;
+		background-color: white;
 }
 
 /* Content */
 #portfolio .content {
     padding: 10px;
+		background-color: white;
 }
 
 
