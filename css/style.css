@@ -1,9 +1,6 @@
 /*
-
 Comila Template
-
 http://www.templatemo.com/tm-490-comila
-
 */
 
 body
@@ -56,7 +53,8 @@ strong {
 
 #about,
 #feature,
-#contact {
+#contact,
+#portfolio {
   background: #ffffff;
 }
 
@@ -348,6 +346,56 @@ footer {
 }
 
 
+/*Portfolio Section*/
+#portfolio * {
+    box-sizing: border-box;
+}
+
+#portfolio body {
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+#portfolio .main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#portfolio h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+#portfolio .row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+#portfolio .row,
+#portfolio .row > #portfolio .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+#portfolio .column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+#portfolio .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+#portfolio .content {
+    padding: 10px;
+}
+
+
 /* footer section  */
 footer {
   background: #111112;
@@ -558,6 +606,19 @@ footer a:hover {
   width: 25px;
   height: 25px;
   line-height: 25px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
 }
