@@ -633,5 +633,8 @@ footer a:hover {
 img {
     border-radius: 8px;
 }
-	
+.buttonclass {
+	width: 10%;
+	background-color: white;
+}
 }
